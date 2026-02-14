@@ -1,7 +1,7 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
   "productName": "rust-tauri-leptos-playground",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "identifier": "com.iruka-neko.rust-tauri-leptos-playground",
   "build": {
     "beforeDevCommand": "trunk serve",
@@ -25,6 +25,8 @@
   "bundle": {
     "active": true,
     "targets": "all",
-    "icon": []
+    "icon": [
+      "icons/icon.ico"
+    ]
   }
 }
